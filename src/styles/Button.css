@@ -1,0 +1,60 @@
+.btn {
+  padding: 8px 20px;
+  width: 100%;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: #192e42;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn--outline {
+  background-color: #2fc197;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+}
+
+.btn--main--outline {
+  background-color: #2fc197;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+}
+
+.btn--medium,
+.btn--main--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.btn--large,
+.btn--main--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--medium:hover {
+  transition: all 0.3s ease-out;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 250ms;
+}
+
+.btn--main--large:hover,
+.btn--main--medium:hover {
+  transition: all 0.3s ease-out;
+  background: #192e42;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 250ms;
+}
